@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+}
+
+.btn-colo{
+    background-color: rgb(121, 120, 118);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: .3rem;
+    /* padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px; */
+
+    /* padding: 10px 15px 10px 15px; */
+    padding: 10px 15px;
+    margin-bottom: 30px;
+
+}
+.btn-colo:hover{
+    cursor: pointer;
+    background-color: rgb(45, 45, 45);
+    transition: .3s ease-in;
+}
+
+.btn-u{
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: .3rem;
+    margin-top: 30px;
+}
+.btn-u:hover{
+    cursor: pointer;
+    background-color: rgb(2, 2, 147);
+    color: white;
+    transition: .3s ease-out;
+}
+/* Fuentes */ 
+.texto-blanco{
+    color: white;
+}
+.mayuscula{
+    text-transform: uppercase;
+}
+.fuente-italic{
+    font-style: italic;
+}
+.fuente2{
+    font-family:'Courier New', Courier, monospace
+}
+
+/* Centrar */
+.centrar-texto{
+    text-align: center;
+}
+
+/* Fondos Colores */
+.fondo-azul{
+    background-color: blue;
+}
+
+/* Margins */
+.espacio-arriba-1{
+    margin-top: 10px;
+}
+.espacio-arriba-2{
+    margin-top: 20px;
+}
+.espacio-arriba-3{
+    margin-top: 30px;
+}
+.espacio-arriba-4{
+    margin-top: 40px;
+}
+.espacio-arriba-5{
+    margin-top: 50px;
+}
+
+.redondeo-1{
+    border-radius: .3rem;
+}
